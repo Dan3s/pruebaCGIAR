@@ -1,0 +1,12 @@
+CREATE TABLE animal(
+    owner	VARCHAR2(30) NOT NULL,
+    latitude	VARCHAR2(30) NOT NULL,
+    longitude	VARCHAR2(30) NOT NULL
+);
+
+CREATE TABLE Deforestationzone(
+    deforestation_area VARCHAR2(30) NOT NULL,
+    latitude	VARCHAR2(30) NOT NULL,
+    longitude	VARCHAR2(30) NOT NULL
+);
+
